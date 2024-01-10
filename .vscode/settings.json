@@ -1,0 +1,6 @@
+{
+    "files.exclude": {
+        ".pants.d/**": true,
+        ".pids/**": true
+    }
+}
