@@ -15,3 +15,6 @@ RUN curl https://pyenv.run | bash && \
 
 # Install Pants
 RUN curl --proto '=https' --tlsv1.2 -fsSL https://static.pantsbuild.org/setup/get-pants.sh | bash
+
+# Install Trunk
+RUN curl -fsSL https://get.trunk.io | bash -s -- -y;
